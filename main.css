@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+nav {
+    background: transparent;
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -17,10 +21,26 @@ nav li {
 }
 
 li a {
-    color: black;
+    color: white;
 }
 
-canvas {
-    width: 100%;
-    height: 100%;
+.first {
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(320deg, white 60%, blue 20%);
+}
+
+
+
+.second {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: blue;
+}
+
+.third {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: grey;
+
 }
